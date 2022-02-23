@@ -379,9 +379,9 @@ const question = new Map([
 console.log(question);
 console.log(question.get('question'));
 
-for (const [key, value] of question) {
-  if (typeof key === 'number') console.log(`Answer ${key}: ${value}`);
-}
+// for (const [key, value] of question) {
+//   if (typeof key === 'number') console.log(`Answer ${key}: ${value}`);
+// }
 
 // const answer = Number(prompt('Your answer'));
 // console.log(answer);
@@ -473,3 +473,5 @@ const capitalizeNames = function (name) {
 };
 
 capitalizeNames('jessica anna maria gonzalez');
+
+// Coding Challange #4
